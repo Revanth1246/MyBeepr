@@ -12,7 +12,7 @@
 <br>8) Tap on Login button<br />
 <br>9) Wait until the Welcome message is displayed<br />
 
-<br><b>**Framework Components:</b><br />
+<br> Please read Instructions.docx file for project setup<br />
 
 
 
