@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="56588" started-at="2020-04-19T15:12:22Z" finished-at="2020-04-19T15:13:19Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="56588" started-at="2020-04-19T15:12:22Z" finished-at="2020-04-19T15:13:19Z">
+      <class name="Login.LoginTests">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:Login.LoginTests@396f6598]" name="setUp" is-config="true" duration-ms="9729" started-at="2020-04-19T15:12:22Z" finished-at="2020-04-19T15:12:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="AmazonLogin()[pri:0, instance:Login.LoginTests@396f6598]" name="AmazonLogin" duration-ms="26122" started-at="2020-04-19T15:12:32Z" finished-at="2020-04-19T15:12:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AmazonLogin -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:Login.LoginTests@396f6598]" name="teardown" is-config="true" duration-ms="20722" started-at="2020-04-19T15:12:58Z" finished-at="2020-04-19T15:13:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- Login.LoginTests -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
