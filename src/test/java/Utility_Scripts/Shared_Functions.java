@@ -97,79 +97,7 @@ public class Shared_Functions {
 	  }
 	  System.out.println("Appium server Is stopped now.");
 	 }
-//	 public void tapByElement (AndroidElement androidElement) {
 
-//	    }
-//	 public void wait_until(String ObjProp,String Objectvalue,WebDriver driver){
-//		  //This function will wait until object is present on the webpage
-//		  
-//		     WebDriverWait wait1 = new WebDriverWait(driver,100);
-////		 	Wait wait1 = new FluentWait(driver);
-////				 
-////				   wait1.withTimeout(30, SECONDS);
-////				 
-////				    wait1.pollingEvery(5, SECONDS);
-////				 
-////				    wait1.ignoring(NoSuchElementException.class);
-//		    if( ObjProp.equalsIgnoreCase("id")) {
-//		    	System.out.println("Waiting for "+Objectvalue +"property");
-//		     wait1.until(ExpectedConditions.presenceOfElementLocated(By.id(""+Objectvalue)));
-//		    }else if(ObjProp.equalsIgnoreCase("class")){
-//		    	System.out.println("Waiting for "+Objectvalue +"property");
-//		    	 wait1.until(ExpectedConditions.presenceOfElementLocated(By.className(""+Objectvalue)));
-//		    	 System.out.println("Waiting for "+Objectvalue +"property");
-//		    }else if(ObjProp.equalsIgnoreCase("xpath")){
-//		    	System.out.println("Waiting for "+Objectvalue +"property");
-//		    	 wait1.until(ExpectedConditions.presenceOfElementLocated(By.xpath(""+Objectvalue)));
-//		    }else if(ObjProp.equalsIgnoreCase("css")){
-//		    	System.out.println("Waiting for "+Objectvalue +"property");
-//		    	 wait1.until(ExpectedConditions.presenceOfElementLocated(By.cssSelector(""+Objectvalue)));
-//		    }else if(ObjProp.equalsIgnoreCase("partiallink")){
-//		    	System.out.println("Waiting for "+Objectvalue +"property");
-//		    	wait1.until(ExpectedConditions.presenceOfElementLocated(By.partialLinkText(""+Objectvalue)));	    	
-//		    }else if(ObjProp.equalsIgnoreCase("link")){
-//		    	System.out.println("Waiting for "+Objectvalue +"property");
-//		    	wait1.until(ExpectedConditions.presenceOfElementLocated(By.linkText(""+Objectvalue)));
-//		    }else if(ObjProp.equalsIgnoreCase("name")){
-//		    	System.out.println("Waiting for "+Objectvalue +"property");
-//		    	wait1.until(ExpectedConditions.presenceOfElementLocated(By.name(""+Objectvalue)));
-//		    	
-//		    }
-//		    
-//	 }
-
-//	 public boolean ScrollBottom(String name,AndroidDriver driver) throws InterruptedException{
-//		 Dimension dimensions = driver.manage().window().getSize();	
-//		 Double screenHeightStart = dimensions.getHeight() * 0.8;
-//		 boolean found=false;
-//		 int scrollStart = screenHeightStart.intValue();
-//		 System.out.println("s="+screenHeightStart);
-//		 Double screenHeightEnd = dimensions.getHeight() * 0.1;
-//		 int scrollEnd = screenHeightEnd.intValue();
-//		 int x=dimensions.width/35;
-//		 System.out.println("sEnd="+scrollEnd);
-//		 for (int i=10;i>=1;i--){
-//			 System.out.println("value:"+i);		 
-//			 int present=driver.findElements(By.xpath("//*[contains(@text,'"+name+"')]")).size();
-//			 
-//			 if(present != 0){
-//				 
-//				 String testing=driver.findElementByXPath("//*[contains(@text,'"+name+"')]").getText();
-//				 System.out.println("Assigments value dislayed are : "+testing);
-//				 driver.findElementByXPath("//*[contains(@text,'"+name+"')]").click();			 
-//				 found=true;
-//				 System.out.println("Element is Present");
-//				 break;			 
-//				 
-//			  }else{
-//				 
-//				  System.out.println("Element is Absent");
-//				 // driver.swipe(x,scrollStart,x,scrollEnd,10000);
-//			  }
-//
-//		 }
-//		 		return found;
-//		}
 	 
 
 	 public boolean ScrollBottom(String name) throws InterruptedException{
